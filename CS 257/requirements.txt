@@ -1,0 +1,68 @@
+Webapp Development
+
+Authors: Julian Bowers & A.J. Ristino
+
+App Name: TBD
+
+Dataset source:
+    
+    Available for download at the following link:
+    https://www.kaggle.com/michaelbryantds/top-5000-albums-of-all-time-rateyourmusiccom
+
+Dataset name:
+
+    Top 5000 Albums of All time
+
+Dataset description:
+
+    This dataset consists of the top 5000 albums of all time
+    as decided by the users of rateyourmusic.com.
+
+    There are nine columns, each pertaining to a different variable:
+    
+    1. Ranking (Album ranking from 1 to 5000)
+    2. Album (Name of album)
+    3. Artist Name (Name of artist/group)
+    4. Release Date (Date of album release)
+    5. Genres (Album genres)
+    6. Descriptors (Descriptions of album)
+    7. Average Rating (Average rating of album)
+    8. Number of Ratings (Number of ratings of album)
+    9. Number of Reviews (Number of reviews of album)
+
+Use cases // User Stories:
+
+    STORY: An aspiring alt-rock artist can return the average rankings of all albums with an 'alt rock' classification
+    in order to find reputable inspiration for their musical endeavors. 
+
+    IMPLEMENTATION: We could implement a 'search tools' menu (don't know how exactly to do this yet) that accepts 
+    a string or partial string and fetches results whose categorization column contains said string. An issue here 
+    is that users might not know the categorization of their music, so we could also include a drop-down that allows 
+    a user to select which genres of music they'd like the app to return from a list of all the values present in the 
+    dataset. There also exists an opportunity here to implement a separate page titled 'genres' or such that has links
+    to sub-lists of sub-genres and so on and so forth. The second one is ambitious but requires a lot of navigation.
+
+
+    STORY: A host is throwing a 70s themed party and is looking for highly rated albums from the time period
+    to act as capstones to their playlist.
+
+    IMPLEMENTATION: We could include a 'sort by' section in our proposed 'search tools' menu that allows the user
+    to specify a 'release year range' by typing in a start year or end year, or both. The prompt would then return
+    albums from the specified range of dates.
+
+
+    STORY: Sam loves listening to all kinds of new music, so he would like to find a list of randomly sorted albums to listen to.
+
+    IMPLEMENTATION: We could create a interactive slideshow for each of the 5000 albums sorted randomly. This slideshow implementation
+    would respond to cursor input from left and right arrows. General information such as genre, release date, and a description of the
+    album would be shown.
+
+ 
+    STORY: A music historian wants to determine what release dates are most prevalent in the dataset to determine whether
+    older (relative to the dataset or  historian) albums have higher ratings on average.
+
+    IMPLEMENTATION: This one could be tricky to implement, but we could try implementing a 'timeline' graphic that displays
+    a graph data representation of where concentrations of entries are located, chronologically. Narrowing down the search
+    could remove entries from the graph and different genres could be displayed in different colors; hovering over a data point
+    displays relative details: album name, artist/band, release year, ranking... etc. THIS IS A HYPOTHETICAL IDEA, we don't have 
+    the knowledge to accomplish this, but it would be an interesting and ambitious design.   
