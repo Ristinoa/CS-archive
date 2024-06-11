@@ -12,3 +12,9 @@ For the research paper component of this project (the comparative analysis porti
 
 https://drive.google.com/file/d/1FhNc50xCXWowT-f47idD5vvIL7ziqo7G/view?usp=sharing
 
+Lastly, to see the outputs of our experiments in their raw form (used as figures in our paper), see the jupyter notebook included in this folder.
+
+Thank you!
+
+- Aidan and A.J.
+
